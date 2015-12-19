@@ -1312,6 +1312,11 @@ section.description img {
   min-width: 100%;
 }
 
+
+.call-to-action {
+  text-align: center;
+}
+
 .name_description {
   font-family: "RobotoSlab";
   font-weight: 300;
@@ -1357,9 +1362,65 @@ h4.block-title.center {
 
 
 
+footer {
+  background: url("../img/bgr-footer-xs.jpg")top no-repeat;
+  width: 100%;
+  background-size:cover;
+
+}
+
+.block-title.left.white{
+  text-align:left;
+  color: #fff;
+}
+
+footer .adress {
+  border: 1px solid #3b9efa;
+  margin: 36px 10px;
+  padding-bottom: 60px;
+}
+
+.adress ul li{
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 20px;
+  position: relative;
+  padding-left: 40px;
+}
+
+.contacts li.contacts_phone:before {
+  content: '';
+  background: url("../img/footer_icon_phone.png") no-repeat;
+  display: inline-block;
+  top:-4px;
+  left:0;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.contacts li.contacts_email:before {
+  content: '';
+  background: url("../img/footer_icon_email.png") no-repeat;
+  display: inline-block;
+  top:2px;
+  left:0;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
 
 
-
+.contacts li.contacts_place:before {
+  content: '';
+  background: url("../img/footer_icon_home.png") no-repeat;
+  display: inline-block;
+  top:-4px;
+  left:0;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
 
 
 .subnav {
