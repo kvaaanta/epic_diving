@@ -3,45 +3,315 @@
 <head>
   <meta charset="UTF-8">
   <title>Главная</title>
-  <link rel="stylesheet" href="css/style.css">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/function.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
+  <![endif]-->
 </head>
 <body>
 
-  <header class="page-header">
+<!-- header -->
+  <header class="header_home">
     <div class="container">
-      <div class="row  page-header-top">
-        <div class="col-xs-5">
-          <div class="logo">Логотип</div>
+      <div class="row">
+
+<!-- logo -->
+        <div class="col-xs-5  col-sm-2">
+          <a href="/"><img src="img/logo.png" alt="" class="logo"></a>
         </div>
-        <div class="col-xs-7">
-          <div class="contacts">Телефоны</div>
+<!-- /logo -->
+
+<!-- /contacts -->
+        <div class="col-xs-7  col-sm-3  col-sm-push-7  col-lg-2 col-lg-push-8 contacts">
+          <a href="tel:+79111234567" class="item">+7 911 123-45-67</a>
+          <a href="tel:88125471443" class="item">547-14-43</a>
         </div>
-        <nav class="col-xs-12  nav-wrapper">
-          <ul class="nav">
-            <li class="nav-item  active"><a href="">Навигация</a></li>
-            <li class="nav-item"><a href="">Навигация</a></li>
-            <li class="nav-item"><a href="">Навигация</a></li>
-            <li class="nav-item"><a href="">Навигация</a></li>
-            <li class="nav-item"><a href="">Навигация</a></li>
-          </ul>
+<!-- /contacts -->
+
+<!-- menu -->
+        <nav class="col-xs-12  col-lg-8 col-lg-pull-2">
+
+          <div class="page-header">
+            <a href="" class="toggler" id="toggler"><span></span></a>
+
+            <ul class="nav-wrapper"  id="nav-wrapper">
+              <li class="nav-item  active"><a href="index.html">Главная страница</a></li>
+              <li class="nav-item"><a href="onecourse.html">Страница курса</a></li>
+              <li class="nav-item"><a href="#">Команда</a></li>
+              <li class="nav-item"><a href="#">Проживание</a></li>
+              <li class="nav-item"><a href="#">Контакты</a></li>
+            </ul>
+          </div>
         </nav>
-      </div>
-    </div>
+<!-- /menu -->
+       </div>     <!-- /row -->
+    </div> <!-- /container -->
+
+    <section class="lead">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>Diving Dahab</h1>
+            <h2>Погрузитесь в мир волнительных приключений вдали от суеты большого города</h2>
+          </div>
+        </div>
+      </div> <!-- cont -->
+    </section>
+
   </header>
 
-<hr>
+<!-- /header -->
 
+<!-- about -->
+
+  <section class="about">
     <div class="container">
+      <div class="row">
 
-<div class="row">
-  <div class="col-xs-4">1Далеко-далеко за.</div>
-  <div class="col-xs-4">2Буквоград, взгляд.</div>
-  <div class="col-xs-4">3Коварных, однажды!</div>
-  <div class="col-xs-4">4Оксмокс, послушавшись.</div>
-  <div class="col-xs-4">5Власти, составитель.</div>
-</div>
-</div>
+        <div class="col-xs-12  col-lg-6">
+          <h4 class="block-title left">О нас</h4>
+            <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</p>
+          <ul>
+            <li class="about_free-wifi">Бесплатный Wi-Fi</li>
+            <li class="about_team">Рускоговорящая команда</li>
+            <li class="about_material">Необходимые материалы</li>
+            <li class="about_relax">Зона для отдыха</li>
+          </ul>
+        </div>
+
+<!-- pictures about -->
+        <div class="col-xs-12  col-lg-6  pictures-about">
+          <div class="col-lg-4  hidden-sm  hidden-xs">
+            <img src="http://placehold.it/400x200?text=1" alt="">
+          </div>
+          <div class="col-xs-8  col-xs-push-4  col-sm-push-4  col-lg-push-0">
+            <img src="http://placehold.it/400x200?text=2" alt="">
+          </div>
+          <div class="col-xs-4  col-xs-pull-8  col-sm-pull-8  col-lg-pull-0">
+            <img src="http://placehold.it/400x200?text=3" alt="">
+          </div>
+          <div class="hidden-xs  col-lg-4  hidden-sm">
+            <img src="http://placehold.it/400x200?text=4" alt="">
+          </div>
+          <div class="col-lg-4  hidden-sm  hidden-xs">
+            <img src="http://placehold.it/400x200?text=5" alt="">
+          </div>
+        </div>
+<!-- /pictures about -->
+
+      </div>  <!-- row -->
+    </div> <!-- /container -->
+  </section>
+
+<!-- /about -->
+
+<!-- advanced -->
+
+  <section class="description">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-xs-12  col-sm-4">
+          <div class="description_content">
+            <h3 class="name_description">Курсы</h3>
+            <p class="desc_description">Начните обучение в нашей школе по программе PADI</p>
+          </div>
+          <img src="http://placehold.it/200x200" alt="">
+        </div>
+
+        <div class="col-xs-12  col-sm-4">
+          <div class="description_content">
+            <h3 class="name_description">Места</h3>
+            <p class="desc_description">Изучите все места для погружений в окресностях Дахаба</p>
+          </div>
+          <img src="http://placehold.it/200x200" alt="">
+        </div>
+
+        <div class="col-xs-12  col-sm-4">
+          <div class="description_content">
+            <h3 class="name_description">Проживание</h3>
+            <p class="desc_description">Посмотрите наши специальные цены на отели</p>
+          </div>
+          <img src="http://placehold.it/200x200" alt="">
+        </div>
+
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </section>
+<!-- /advanced -->
+
+<!-- call-to-action -->
+
+  <section class="call-to-action">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h4 class="block-title  center">Хватит думать, пора нырять!</h4>
+          <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</p>
+          <a href="#" class="call-to-action_button">Записаться</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- /order -->
+
+<!-- team -->
+  <section class="team">
+    <div class="container">
+      <div class="row">
+
+        <div class="team_item">
+          <a href="#">
+            <div class="team_name">
+              Ирина<br> Маска
+            </div>
+           <img src="http://placehold.it/500x500?text=1" alt="">
+          </a>
+        </div>
+
+
+        <div class="team_item">
+          <a href="#">
+            <div class="team_name">
+              Ирина<br> Маска
+            </div>
+           <img src="http://placehold.it/500x500?text=2" alt="">
+          </a>
+        </div>
+
+
+        <div class="team_item">
+          <a href="#">
+            <div class="team_name">
+              Ирина<br> Маска
+            </div>
+           <img src="http://placehold.it/500x500?text=3" alt="">
+          </a>
+        </div>
+
+
+        <div class="team_item">
+          <a href="#">
+            <div class="team_name">
+              Ирина<br> Маска
+            </div>
+           <img src="http://placehold.it/500x500?text=4" alt="">
+          </a>
+        </div>
+
+
+        <div class="team_item">
+          <a href="#">
+            <div class="team_name">
+              Ирина<br> Маска
+            </div>
+           <img src="http://placehold.it/500x500?text=5" alt="">
+          </a>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+<!-- /team -->
+
+<!-- reviews -->
+
+  <section class="reviews">
+    <div class="container">
+      <div class="row">
+        <div class="hidden-xs  col-sm-5  col-lg-3  reviews_photo">
+          <div class="reviews_item">Маша, 31 год</div>
+          <img src="http://placehold.it/500x500?text=photo" alt="">
+        </div>
+        <div class="col-xs-12  col-sm-7  col-lg-8  blockquote">
+            <p>Здорово, что ребята все русскоязычные. Приезжаешь и чувствуешь себя как дома, в хорошем смысле</p>
+        </div>
+        <div class="hidden-xs  hidden-sm  col-lg-1  reviews_arrows">
+          arrows
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- /reviews -->
+
+  <footer>
+    <div class="container">
+      <div class="row">
+
+<!-- contacts -->
+        <div class="col-xs-12 col-sm-5 col-lg-4">
+          <div class="contacts">
+            <h4 class="block-title  left  white">Россия</h4>
+            <ul>
+              <li class="contacts_phone">+7 911 123-45-67</li>
+              <li class="contacts_email">info-ru@diving-dabab.ru</li>
+            </ul>
+
+            <h4 class="block-title  left  white">Египет</h4>
+            <ul>
+              <li class="contacts_place">Blue Hole Road, 12, Dahab</li>
+              <li class="contacts_phone">+7 911 123-45-67</li>
+              <li class="contacts_email">info-ru@diving-dabab.ru</li>
+            </ul>
+          </div>
+        </div>
+<!-- /contacts -->
+
+
+<!-- form -->
+        <div class="col-xs-12  col-sm-7  col-lg-8 send-us">
+          <div class="col-xs-12">
+            <h4 class="block-title  left  white">Напишите нам</h4>
+            <span class="send-us_text">Оставьте ваши отзывы</span>
+          </div>
+          <div class="col-xs-12">
+            <form action="#">
+              <div class="col-xs-12 col-sm-6"><input type="text" placeholder="Имя"></div>
+              <div class="col-xs-12 col-sm-6"><input type="text" placeholder="Email"></div>
+              <div class="col-xs-12"><textarea name="" id="" cols="30" rows="10">Сообщение</textarea></div>
+              <div class="col-xs-12 col-sm-6  col-lg-4"><button id="send-us_button">Отправить</button></div>
+            </form>
+          </div>
+        </div>
+<!-- /form -->
+      </div>
+    </div>
+
+
+<!-- sub-footer -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12  col-sm-3  col-lg-2 copy">
+          Diving Dahab, 2015
+        </div>
+
+        <div class="col-xs-12  col-sm-3  col-lg-2  col-sm-push-6  col-lg-push-8">
+          <div class="social"> ul>li
+            <a href="#" class="vk">Мы в контакте</a>
+            <a href="#" class="instagram">ins</a>
+            <a href="#" class="googleplus">gpl</a>
+          </div>
+        </div>
+
+      </div> <!-- row -->
+    </div>
+
+  </footer>
+
+<!-- /sub-footer -->
+
 
 </body>
 </html>
