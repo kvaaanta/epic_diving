@@ -1235,24 +1235,27 @@ nav.col-xs-12 {
 
 /*/gamburger*/
 
-
+.lead {
+  padding: 0 0 80px;
+}
 .lead h1.h1_lead{
   font-family: "LatoBold";
   color: #fff;
   font-size: 24px;
+  display: inline-block;
   margin: 50px 0 15px;
   padding: 7px 7px;
   background-color: #13152e;
 }
 
-
 .lead h2.h2_lead {
   font-family: "RobotoSlab";
   font-weight: 400;
   color: #fff;
-  font-size: 24px;
-  margin: 15px 0 80px;
-  padding: 7px 7px;
+  display: inline;
+  line-height: 30px;
+  font-size: 18px;
+  padding: 4px 7px;
   background-color: #13152e;
 }
 
@@ -1261,13 +1264,27 @@ nav.col-xs-12 {
   margin: 50px 0 15px;
 }
 
+h4.block-title {
+  font-family: "RobotoSlab";
+  font-size: 24px;
+  padding-bottom: 24px;
+}
 
+.about p{
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 40px;
+}
 
+.about li {
+  font-size: 16px;
+  color: #ea7923;
+  line-height: 40px;
+}
 
-
-
-
-
+.about li img {
+  padding-right: 10px;
+}
 
 
 
