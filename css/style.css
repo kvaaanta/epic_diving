@@ -1260,14 +1260,11 @@ nav.col-xs-12 {
 }
 
 
-.about {
-  margin: 50px 0 15px;
-}
 
 h4.block-title {
   font-family: "RobotoSlab";
   font-size: 24px;
-  padding-bottom: 24px;
+  padding: 55px 0 55px;
 }
 
 .about p{
@@ -1280,11 +1277,81 @@ h4.block-title {
   font-size: 16px;
   color: #ea7923;
   line-height: 40px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .about li img {
   padding-right: 10px;
 }
+
+.pictures-about {
+  padding: 40px 0 24px;
+}
+
+
+.course-description_title{
+  background: #e86b0c;
+}
+
+.course-description {
+  background: #27a8bc;
+}
+
+.description_content {
+  z-index: 10;
+  position: absolute;
+  padding-bottom: 24px;
+}
+
+section.description img {
+  position: relative;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+.name_description {
+  font-family: "RobotoSlab";
+  font-weight: 300;
+  color: #fff;
+  font-size: 24px;
+  margin: 30px 0 150px 0;
+  padding: 4px 7px;
+  background-color: #13152e;
+}
+
+.desc_description {
+  font-family: "LatoRegular";
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 4px 7px;
+  background-color: #13152e;
+}
+
+
+h4.block-title.center {
+  text-align: center;
+}
+
+.call-to-action p{
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.call-to-action a{
+  color: #fff;
+  background-color: #3b9efa;
+  display: inline-block;
+  padding: 15px 60px;
+  margin: 60px 0;
+
+}
+
+
 
 
 
@@ -1298,29 +1365,6 @@ h4.block-title {
 .subnav {
   background: #13152e;
 }
-
-.course-description_title{
-  background: #e86b0c;
-}
-
-.course-description {
-  background: #27a8bc;
-}
-
-.description_content {
-  position: relative;
-  z-index: 10;
-}
-
-section.description img {
-  position: absolute;
-  z-index: 5;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-}
-
-
 
 
 
